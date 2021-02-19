@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 const CardWrapper = styled.div`
-	width: 300px;
-	max-height: 350px;
-    border: 1px solid #f0f0f0;
+	width: 100%;
+	max-height: 300px;
+    margin: 30px 0;
 `;
 
 CardWrapper.Image = styled.img`
 	max-width: 100%;
-	object-fit: cover;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 `;
 
 CardWrapper.Text = styled.h3`

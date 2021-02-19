@@ -5,10 +5,12 @@ function Card() {
 	return (
 		<CardWrapper>
 			<CardWrapper.Image
-				src="https://via.placeholder.com/300x150"
+				src="https://via.placeholder.com/300x200"
 				alt="Placeholder"
 			/>
-			<CardWrapper.Text>Projeto</CardWrapper.Text>
+			<CardWrapper.Text>
+                Lorem ipsum dolor sit
+            </CardWrapper.Text>
 		</CardWrapper>
 	);
 }
