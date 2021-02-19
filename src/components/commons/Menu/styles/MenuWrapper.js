@@ -18,15 +18,15 @@ const MenuWrapper = styled.nav `
     height:70px;
 `;
 
-MenuWrapper.LeftSide = styled.div `
-
-`;
+MenuWrapper.LeftSide = styled.div ``;
 
 MenuWrapper.RightSide = styled.div `
     list-style: none;
     display: inherit;
-    li {
-        margin-right: 20px;
+     li {
+        &:first-child {
+            margin-right: 20px;
+        }
     }
     a {
         text-transform: uppercase;
