@@ -6,7 +6,7 @@ const Masthead = styled.header`
     background-image: url('https://www.lauramadalosso.com/img/bg-color.svg');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     display: flex;
     align-items: center;
