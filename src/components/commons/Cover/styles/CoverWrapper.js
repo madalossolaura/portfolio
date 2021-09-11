@@ -1,29 +1,30 @@
 import styled, { css } from 'styled-components';
 import breakpointsMedia from '../../../../theme/utils/breakpointsMedia';
 
-const Masthead = styled.header`
+const CoverWrapper = styled.div`
     font-family: 'Open Sans', sans-serif;
-    background-image: url('https://www.lauramadalosso.com/img/bg-color.svg');
+    /*background-image: url('/images/bg.svg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center top;
-    background-size: cover;
+    background-size: cover;*/
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
     ${breakpointsMedia({
         xs: css`
-            padding: 100px 0;
+            padding: 4rem;
         `,
         md: css`
-            padding: 18% 0;
+            padding: 18% 4rem;
         `,
         xl: css`
-            height: 100vh;
-            max-height: 100vh;
+            padding-right: 8rem;
+            padding-left: 8rem; 
         `,
     })}
 `;
 
-export default Masthead;
+export default CoverWrapper;

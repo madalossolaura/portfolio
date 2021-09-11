@@ -2,15 +2,15 @@ import styled from 'styled-components';
 
 const FooterIcon = styled.div`
     a {
-        margin-left: 20px;
+        margin: 6rem 1rem 0 0;
         &:hover,
         &:focus {
             opacity: .5;
         } 
     }
     img {
-        width: 18px;
-        height: 18px;
+        width: 28px;
+        height: 28px;
     }
 `;
 

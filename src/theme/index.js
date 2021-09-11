@@ -16,13 +16,13 @@ export const colors = {
   },
   primary: {
     main: {
-      color: '#555555',
-      contrastText: '#ec5e52',
+      color: '#EF6461',
+      contrastText: '#555555',
     },
   },
   secondary: {
     main: {
-      color: '#212529',
+      color: '#555555',
       contrastText: '#ffffff',
     },
   },
